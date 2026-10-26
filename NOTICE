@@ -1,0 +1,20 @@
+Praxis / 知行
+Copyright 2026 myflww
+Original project: https://github.com/myflww/praxis
+
+The first-party skill instructions, examples and pick-topic implementation
+are distributed under the Apache License, Version 2.0. See LICENSE.
+Retain applicable copyright and source attribution notices when redistributing.
+
+The code-understanding capability was informed by studying the publicly
+observable behavior of Grill Me (https://github.com/joshuawheelock/grill-me).
+This distribution does not include its skill text, source implementation,
+native executables, icons or artwork. The new instructions and native tool
+were independently written for this project from the four-quadrant workflow
+and an observed behavior specification. No upstream authorship or endorsement
+of this project is implied.
+
+The bundled executables include the Go runtime and standard library.
+The Go Authors' license is retained in third_party/Go-LICENSE.
+
+This NOTICE provides attribution and does not add conditions to Apache-2.0.

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Praxis · 知行"
+  short_description: "静默运用四类信息推进协作，并在用户主动请求时用代码证据校验理解"
+  default_prompt: "请使用 $praxis，结合已确认目标与可查证信息推进当前任务；如果我明确要求测验或复盘自己的理解，请依据实际代码或方案提问并反馈。"
+policy:
+  allow_implicit_invocation: true

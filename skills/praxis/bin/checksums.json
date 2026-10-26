@@ -1,0 +1,58 @@
+{
+  "build": {
+    "build_id": "",
+    "cgo_enabled": false,
+    "go_version": "go version go1.27.3 darwin/arm64",
+    "trimpath": true,
+    "vcs": false
+  },
+  "files": {
+    "pick-topic-darwin-amd64": {
+      "goarch": "amd64",
+      "goos": "darwin",
+      "sha256": "6a7e4901fa794dc01a76a49c4579dcc66da6e3a64c71f86e86aa93c648e801d7",
+      "size": 1957312
+    },
+    "pick-topic-darwin-arm64": {
+      "goarch": "arm64",
+      "goos": "darwin",
+      "sha256": "490a2de7a2ef001e3a3daa278019f7103acd3346cc627c76c7df2798015faa12",
+      "size": 1894226
+    },
+    "pick-topic-linux-amd64": {
+      "goarch": "amd64",
+      "goos": "linux",
+      "sha256": "37c54abbc99ad453b92d7c3cf6054b43bcebde179f563faa3e6fa0b0406e29da",
+      "size": 1994876
+    },
+    "pick-topic-linux-arm64": {
+      "goarch": "arm64",
+      "goos": "linux",
+      "sha256": "5283cd84547c0719bc97716cf3eee5e1aab35678b93c0b84e1e22b3f70308d85",
+      "size": 1966204
+    },
+    "pick-topic-windows-amd64.exe": {
+      "goarch": "amd64",
+      "goos": "windows",
+      "sha256": "94d83cc8ef6810c425871c8c461875e8cfa48c07f8fd6c0014389d550774fdf7",
+      "size": 2123776
+    },
+    "pick-topic-windows-arm64.exe": {
+      "goarch": "arm64",
+      "goos": "windows",
+      "sha256": "ee0b577f7d36ebe1e31f9c2300a900e0ab5fb34ab33e26adbf700d30567de336",
+      "size": 1991168
+    }
+  },
+  "license": "Apache-2.0",
+  "schema_version": 1,
+  "source_files": {
+    "cmd/pick-topic/main.go": {
+      "sha256": "99ddbb6890b47e15c391f729193015fd347cd3a48b31f9302a47df9456791b8b"
+    },
+    "go.mod": {
+      "sha256": "b1b071d85f55241c4c8fcb3df28f14b61440a6e350f5f6a443798f2083f031f4"
+    }
+  },
+  "tool": "pick-topic"
+}

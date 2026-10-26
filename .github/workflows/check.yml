@@ -1,0 +1,25 @@
+name: Validate skill and native picker
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  picker:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version: '1.27.3'
+      - name: Unit and filesystem behavior checks
+        run: go test ./...
+      - name: Build current-host picker
+        run: go build -mod=readonly -trimpath -buildvcs=false -o picker-test ./cmd/pick-topic
