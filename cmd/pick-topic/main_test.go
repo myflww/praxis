@@ -253,6 +253,13 @@ func TestPathFilters(t *testing.T) {
 			t.Errorf("unsafe path allowed: %q", path)
 		}
 	}
+	if runtime.GOOS == "windows" {
+		for _, path := range []string{`\absolute.go`, `C:\absolute.go`, `C:relative.go`} {
+			if _, ok := cleanCandidatePath(path); ok {
+				t.Errorf("Windows non-local path allowed: %q", path)
+			}
+		}
+	}
 	for _, path := range []string{"del\x7fname.go", "next\u0085line.go", "separator\u2028name.go", "你好.go", "a b.go"} {
 		if _, ok := cleanCandidatePath(path); !ok {
 			t.Errorf("observed supported filename rejected: %q", path)

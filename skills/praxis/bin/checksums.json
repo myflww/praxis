@@ -10,45 +10,45 @@
     "pick-topic-darwin-amd64": {
       "goarch": "amd64",
       "goos": "darwin",
-      "sha256": "6a7e4901fa794dc01a76a49c4579dcc66da6e3a64c71f86e86aa93c648e801d7",
+      "sha256": "03170c5cdf0197b5ca82437089f408b391279bdcce5c33522e0f7e35022df781",
       "size": 1957312
     },
     "pick-topic-darwin-arm64": {
       "goarch": "arm64",
       "goos": "darwin",
-      "sha256": "490a2de7a2ef001e3a3daa278019f7103acd3346cc627c76c7df2798015faa12",
+      "sha256": "20a34c9ead930fbc9fd50b8d2e4ca249f819cfb28328ac14fd4b9b9b5706c464",
       "size": 1894226
     },
     "pick-topic-linux-amd64": {
       "goarch": "amd64",
       "goos": "linux",
-      "sha256": "37c54abbc99ad453b92d7c3cf6054b43bcebde179f563faa3e6fa0b0406e29da",
+      "sha256": "dd9f9f7a85881243a4691895bce4d18e85e5d2b450fcd27fbaf8c1cdf0ea54e8",
       "size": 1994876
     },
     "pick-topic-linux-arm64": {
       "goarch": "arm64",
       "goos": "linux",
-      "sha256": "5283cd84547c0719bc97716cf3eee5e1aab35678b93c0b84e1e22b3f70308d85",
+      "sha256": "f96be607889418c7d11cdf120a24e017ff03e5c639dfec8c31606f6ecca88257",
       "size": 1966204
     },
     "pick-topic-windows-amd64.exe": {
       "goarch": "amd64",
       "goos": "windows",
-      "sha256": "94d83cc8ef6810c425871c8c461875e8cfa48c07f8fd6c0014389d550774fdf7",
-      "size": 2123776
+      "sha256": "32af17bb098ff1fda3fb09eba0f96b752e87cbdf3cad5b29061152bf86d1832c",
+      "size": 2126848
     },
     "pick-topic-windows-arm64.exe": {
       "goarch": "arm64",
       "goos": "windows",
-      "sha256": "ee0b577f7d36ebe1e31f9c2300a900e0ab5fb34ab33e26adbf700d30567de336",
-      "size": 1991168
+      "sha256": "564e6078a1bfbc1cb0a1fc7a6d21eb1e87069312ebbb39299fec0de047c0a836",
+      "size": 1994240
     }
   },
   "license": "Apache-2.0",
   "schema_version": 1,
   "source_files": {
     "cmd/pick-topic/main.go": {
-      "sha256": "99ddbb6890b47e15c391f729193015fd347cd3a48b31f9302a47df9456791b8b"
+      "sha256": "91721a6242ada2bb9076fe72aea80fe4985dab8a0cc9177c271aebe3e884987e"
     },
     "go.mod": {
       "sha256": "b1b071d85f55241c4c8fcb3df28f14b61440a6e350f5f6a443798f2083f031f4"

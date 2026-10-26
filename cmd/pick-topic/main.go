@@ -263,7 +263,7 @@ func safeWalk(root string) ([]string, error) {
 }
 
 func cleanCandidatePath(raw string) (string, bool) {
-	if raw == "" || !utf8.ValidString(raw) || filepath.IsAbs(raw) {
+	if raw == "" || !utf8.ValidString(raw) || !filepath.IsLocal(raw) {
 		return "", false
 	}
 	for _, char := range raw {
